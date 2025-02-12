@@ -1,0 +1,13 @@
+prefix=/mnt/ddrive/AI Story weaver/venv
+exec_prefix=/mnt/ddrive/AI Story weaver/venv
+libdir=/mnt/ddrive/AI Story weaver/venv/lib
+sharedlibdir=/mnt/ddrive/AI Story weaver/venv/lib
+includedir=/mnt/ddrive/AI Story weaver/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

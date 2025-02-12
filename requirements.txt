@@ -1,0 +1,6 @@
+openai
+pillow
+streamlit
+fpdf
+requests
+matplotlib
